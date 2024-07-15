@@ -1,0 +1,44 @@
+.computerscience-wrapper{
+    align-items: center;
+    background: aliceblue;
+    border:5px solid silver;
+    border-radius:20px;
+    padding:20px
+    
+}
+.search {
+    width: 500px;
+    height: 50px;
+
+}
+
+.subcomp {
+    text-align: center;
+    background: rgb(179, 211, 240);
+    width:300px;
+    border: 7px solid rgb(112, 113, 114);
+    border-radius:20px 10px 20px 10px;
+    padding: 20px;
+}
+.success {
+    text-align: center;
+    background: antiquewhite;
+    width: 300px;
+    border: 7px solid sandybrown;
+    border-radius:20px 10px 20px 10px;
+    padding: 20px;
+}
+.fail {
+    text-align: center;
+    background: rgb(179, 211, 240);
+    width:300px;
+    border: 7px solid rgb(112, 113, 114);
+    border-radius:20px 10px 20px 10px;
+    padding: 20px;
+}
+
+.boxes {
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+}
