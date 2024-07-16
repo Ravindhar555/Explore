@@ -1,44 +1,106 @@
-.computerscience-wrapper{
-    align-items: center;
-    background: aliceblue;
-    border:5px solid silver;
-    border-radius:20px;
-    padding:20px
+body {
+    background: url(hmback.jpg);
+}
+.heading {
+    color: rgb(255, 255, 255);
+    font-family:verdana;
+    font-size: 30px;
+}
+.btn1{
+    width:250px;
+    height:100px;
+    border-radius: 20px;
+    font-family:verdana;
+}
+.btn2 {
+    width:250px;
+    height:100px;
+    border-radius: 20px;
+    font-family:verdana;
+}
+.btn3 {
+    width:250px;
+    height:100px;
+    border-radius: 20px;
+    font-family:verdana;
+}
+.nextline {
+    padding-top:30px;
+}
+.btn4 {
+    width:250px;
+    height:100px;
+    border-radius: 20px;  
+    font-family:verdana;                                                                         
+}
+.btn5 { 
+    padding-top:19px;
+    width:250px;
+    height:100px;
+    border-radius: 20px;
+    font-family:verdana;
+}
+.btn6 {
+    padding-top:19px;
+    width:250px;
+    height:100px;
+    border-radius: 20px; 
+    font-family:verdana;
+}
+.nextline2{
+    padding-top: 30px;
+}
+
+.btn7 {
+    width:250px;
+    height:100px;
+    border-radius: 20px; 
+    font-family:verdana;
+}
+.btn8 {
+    width:250px;
+    height:100px;
+    border-radius: 20px;
+    font-family:verdana; 
+}
+.btn9 {
+    padding-top:19px;
+    width:250px;
+    height:100px;
+    border-radius: 20px;
+    font-family:verdana; 
+}
+.nextline3 {
+    padding-top: 30px;
+}
+.btn10 {
+    width:250px;
+    height:100px;
+    border-radius: 20px; 
+    font-family:verdana;
+}
+.btn11 {
+    width:250px;
+    height:100px;
+    border-radius: 20px; 
+    font-family:verdana;
+}
+
+ .container{
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+   gap: 80px;
+ 
+  padding: 10px;
+ }   
     
-}
-.search {
-    width: 500px;
-    height: 50px;
+ .container :hover {
+    background: rgb(90, 246, 252);
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .3s;
+    font-weight:800;
+    overflow: hidden;
+ }
 
-}
-
-.subcomp {
-    text-align: center;
-    background: rgb(179, 211, 240);
-    width:300px;
-    border: 7px solid rgb(112, 113, 114);
-    border-radius:20px 10px 20px 10px;
-    padding: 20px;
-}
-.success {
-    text-align: center;
-    background: antiquewhite;
-    width: 300px;
-    border: 7px solid sandybrown;
-    border-radius:20px 10px 20px 10px;
-    padding: 20px;
-}
-.fail {
-    text-align: center;
-    background: rgb(179, 211, 240);
-    width:300px;
-    border: 7px solid rgb(112, 113, 114);
-    border-radius:20px 10px 20px 10px;
-    padding: 20px;
-}
-
-.boxes {
-    gap: 50px;
-    display: flex;
-    justify-content: center;
-}
